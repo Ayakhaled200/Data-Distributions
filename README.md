@@ -1,7 +1,7 @@
 # **Data Distribution Task - Simulating & Evaluating Data**  
 
 ## **Project Overview**  
-This project focuses on **generating and evaluating synthetic datasets** from `benchmark_results.xlsx` using two approaches:  
+This project focuses on **generating and evaluating synthetic datasets** from `supermarket.csv` using two approaches:  
 1. **Independent Feature Simulation** – Generating data without considering correlations.  
 2. **Correlation-Preserved Simulation** – Generating data while maintaining feature relationships using a copula-based approach.  
 
@@ -54,10 +54,8 @@ The goal is to compare both datasets in terms of **data quality, distribution, a
 ---
 
 ## **Project Files**  
-- 📊 **`benchmark_results.xlsx`** – Original dataset used for analysis.  
-- 📄 **`Aya_Khaled_Data_Distribution_Task.ipynb`** – Jupyter Notebook for data generation and analysis.  
+- 📊 **`supermarket.csv`** – Original dataset used for data simulation.  
+- 📄 **`Data_Distribution.ipynb`** – Jupyter Notebook for data generation and analysis.  
 - 📊 **`simulated_first.csv`** – Data simulated without correlation.  
 - 📊 **`simulated_second.csv`** – Data simulated with correlation.  
 - 📝 **`Report.docx`** – Detailed analysis and comparison of both approaches.  
-
-
